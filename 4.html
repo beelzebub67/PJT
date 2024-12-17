@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Подключение css -->
+    <link rel="stylesheet" href="4.css" type="text/css">
+
+    <title>Продолжение регистрации</title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel1">
+            <h1>Поздравляем с успешной регистрацией!</h1>
+        </div>
+
+        <div class="panel2">
+            <form>
+                <!-- Всё обязательно -->
+                <input type="text" name="login" placeholder="Выберите логин" required>
+
+                <p>
+                    <fieldset>
+                        <!-- Обязателен выбор одного из двух вариантов -->
+                      <legend>Вы администратор?<abbr title="question" aria-label="required"></abbr></legend>
+                      <input type="radio" required name="admin" id="r1" value="yes"><label for="r1">Да</label>
+                      <input type="radio" required name="admin" id="r2" value="no"><label for="r2">Нет</label>
+                    </fieldset>
+                </p>
+
+                <!-- Переход на начальную страницу -->
+                <button class="button">
+                    <a class="link" href="1.html">Выбрать</a>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

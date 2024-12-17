@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Подключение css -->
+    <link rel="stylesheet" href="3.css" type="text/css">
+
+    <title>Данные для регистрации</title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel1">
+            <h1>Данные для регистрации</h1>
+        </div>
+
+        <div class="panel2">
+            <h2>Введите:</h2>
+            <form>
+                <!-- Отчество, номер телефона не являются обязательными -->
+                <input type="text1" name="surname" placeholder="Фамилия" required>
+                <input type="text2" name="name" placeholder="Имя" required>
+                <input type="text3" name="middle-name" placeholder="Отчество">
+                <input type="text4" name="phone-number-" placeholder="Номер телефона">
+                <!-- Проверяется наличие @ и символов после неё -->
+                <input type="email" name="email-" placeholder="Электронная почта" required>
+                <!-- Пароль пока не скрыт за точками -->
+                <input type="password1" name="password-" placeholder="Пароль" required>
+                <input type="password2" name="password-again" placeholder="Повторите пароль" required>
+
+                <!-- Переход на начальную страницу -->
+                <button class="button">
+                    <a class="link" href="4.html">Подтвердить</a>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Обязательные поля подсвечиваются красным цветом */
+input:invalid:required {
+    border: 2px dashed red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #68b9e8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: x-large;
+}
+h2 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.panel1 {
+    background-color: #68b9e8;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.panel2 {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button1 {
+    padding: 15px;
+    background-color: #4797c6;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+.button2 {
+    padding: 15px;
+    background-color: #4797c6;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.button3 {
+    padding: 15px;
+    background-color: #4797c6;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: black;
+}
+.link3 {
+    text-decoration: none;
+    color: black;
+}

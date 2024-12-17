@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Подключение css и js -->
+    <link rel="stylesheet" href="1.css" type="text/css">
+    <script type="text/javascript" src="1.js"></script>
+
+    <title>Данные для входа</title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel1">
+            <h1>Введите данные для входа</h1>
+        </div>
+
+        <div class="panel2">
+            <h2>Вход</h2>
+            <form>
+                <!-- Все обязательные поля должны быть заполнены -->
+
+                <!-- Всё обязательно -->
+                <input type="text" name="login" placeholder="Логин" required>
+                <!-- Пароль скрыт за точками -->
+                <input type="password" name="password" placeholder="Пароль" required>
+                
+                <div class="buttons">
+                    <!-- Переход на другие страницы -->
+                    <button class="button1">
+                        <a class="link1" href="2.html">Забыли пароль?</a>
+                    </button>
+                    <button class="button2">
+                        <a class="link2">Войти</a>
+                    </button>
+                    <button class="button3">
+                        <a class="link3" href="3.html">Регистрация</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
